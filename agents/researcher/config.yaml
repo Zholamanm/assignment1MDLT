@@ -1,0 +1,17 @@
+# Researcher — Hermes config snippet
+# Profile home: %LOCALAPPDATA%\hermes\profiles\researcher\
+
+model:
+  provider: openrouter
+  default: qwen/qwen3.8-27b:free
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  write_approval: false
+
+telegram:
+  require_mention: true
+
+agent:
+  bot_mode_protocol: true

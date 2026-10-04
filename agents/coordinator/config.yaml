@@ -1,0 +1,17 @@
+# Coordinator — Hermes config snippet (merged by setup script / manual edit)
+# Profile home: %LOCALAPPDATA%\hermes\profiles\coordinator\
+
+model:
+  provider: openrouter
+  default: google/gemma-4-26b-a4b-it:free
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  write_approval: false
+
+telegram:
+  require_mention: true
+
+agent:
+  bot_mode_protocol: true
